@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @abendrothj
 - 👀 I’m interested in planting seeds for my future.
-- 🌱 I focus Java primarily.
+- 🌱 I enjoy learning languages and working on hobby projects  
 
 <!---
 abendrothj/abendrothj is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
