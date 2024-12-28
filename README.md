@@ -29,7 +29,7 @@ Welcome to my GitHub profile! I'm a second-year pursuing a degree in **Computer 
 
 ## 🤝 Connect With Me
 
-- **LinkedIn:** [(https://www.linkedin.com/in/jakeabendroth/)](#)
-- **Email:** [jake@jakea.net](#)
+- **LinkedIn:** [https://www.linkedin.com/in/jakeabendroth/](https://www.linkedin.com/in/jakeabendroth/)
+- **Email:** [jake@jakea.net](mailto:jake@jakea.net)
 
 Feel free to check out my repositories and drop me a message if you'd like to collaborate or share insights.
