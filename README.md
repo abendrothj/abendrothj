@@ -8,7 +8,7 @@ Welcome to my GitHub profile! I'm a second-year pursuing a degree in **Computer 
   - Rust 
   - Python 
   - Java 
-  - C
+  - C/C++
 
 - **Projects:**
   - Developed a **steganography tool in Python**, showcasing my interest in secure communication and cryptography.
