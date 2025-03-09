@@ -1,6 +1,5 @@
 # 🖥️ Jake Abendroth – Software Engineer
 
-![Header](https://via.placeholder.com/1000x300?text=Welcome+to+My+GitHub+Portfolio)
 
 ## 👋 About Me
 
@@ -25,11 +24,6 @@ More projects available on my [GitHub](https://github.com/abendrothj)!
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jakeabendroth)
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://jakea.net)
 
-## 📊 GitHub Stats
-
-![Jake's GitHub Stats](https://github-readme-stats.vercel.app/api?username=abendrothj&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abendrothj&layout=compact&theme=tokyonight)
 
 ---
 
