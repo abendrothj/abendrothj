@@ -1,35 +1,36 @@
-# Hi there, I'm Jake 👋
+# 🖥️ Jake Abendroth – Software Engineer
 
-Welcome to my GitHub profile! I'm a second-year pursuing a degree in **Computer Science** and an aspiring **Cybersecurity/Programming** professional. I'm passionate about exploring the intersection of technology and security, and I love tackling challenging problems to build efficient and innovative solutions.
+![Header](https://via.placeholder.com/1000x300?text=Welcome+to+My+GitHub+Portfolio)
 
-## 💻 Skills & Expertise
+## 👋 About Me
 
-- **Programming Languages:**  
-  - Rust 
-  - Python 
-  - Java 
-  - C/C++
+I'm **Jake Abendroth**, a Computer Science student at the University of San Francisco (Aug 2023 – Dec 2026/May 2027) with a passion for **low-level programming, cryptography, and open-source contributions**. I specialize in **systems programming, cybersecurity, and software development**, working primarily with **Rust, C/C++, Python, Java, and TypeScript**.
 
-- **Projects:**
-  - Developed a **steganography tool in Python**, showcasing my interest in secure communication and cryptography.
-  - Developed a **base encoder/decoder in C**, demonstrating manual memory management and system control.
-  - Developed a **File Checksum/Directory Monitoring tool in Rust**, using advanced techniques and leveraging powerful libraries.
+- 🔍 Seeking a **Summer 2025 internship** in **Software Development, Cybersecurity, or Systems Programming**.
+- 💡 Passionate about **secure software, efficient algorithms, and system integrity**.
+- 🎯 Constantly exploring **new technologies** and contributing to open-source projects.
 
-## 🌱 Currently Learning
+## 🚀 Projects
 
-- Advanced cybersecurity concepts and practices.
-- Further exploring how to use Rust for secure and high-performance software.
-- Experimenting with Python libraries for data analysis and automation, specifically cybersecurity related.
+### 🔹 [Argus](https://github.com/abendrothj/argus)
+A **Rust-based file integrity monitor** designed to detect unauthorized modifications in critical files.
 
-## 🛠️ What I'm Working On
+### 🔹 [BaseX Encoder/Decoder](https://github.com/abendrothj/basex-encoder)
+A **lightweight C library** for encoding and decoding BaseX formats efficiently.
 
-- Building a portfolio of projects that emphasize security and innovation.
-- Collaborating on open-source projects to learn and contribute to the developer community.
-- Learning about secure coding practices and vulnerability assessment.
+More projects available on my [GitHub](https://github.com/abendrothj)!
 
-## 🤝 Connect With Me
+## 📫 Connect With Me
 
-- **LinkedIn:** [https://www.linkedin.com/in/jakeabendroth/](https://www.linkedin.com/in/jakeabendroth/)
-- **Email:** [jake@jakea.net](mailto:jake@jakea.net)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jakeabendroth)
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://jakea.net)
 
-Feel free to check out my repositories and drop me a message if you'd like to collaborate or share insights.
+## 📊 GitHub Stats
+
+![Jake's GitHub Stats](https://github-readme-stats.vercel.app/api?username=abendrothj&show_icons=true&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abendrothj&layout=compact&theme=tokyonight)
+
+---
+
+🌟 _Feel free to explore my repositories and reach out if you're interested in collaborating!_
