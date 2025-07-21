@@ -54,8 +54,8 @@ Lightweight C library for high-performance BaseX encoding and decoding.
 
 ## 🌐 Connect
 
-- 🔗 [LinkedIn](https://linkedin.com/in/your-profile)
-- 🕸️ [Portfolio Website](https://yourwebsite.com)
+- 🔗 [LinkedIn](https://linkedin.com/in/jakeabendroth)
+- 🕸️ [Portfolio Website](https://jakea.net)
 - ✉️ DMs open for collaboration, internships, open-source vibes
 
 ---
@@ -120,8 +120,8 @@ Lightweight C library for high-performance BaseX encoding and decoding.
 
 ## 🌐 Connect
 
-- 🔗 [LinkedIn](https://linkedin.com/in/your-profile)
-- 🕸️ [Portfolio Website](https://yourwebsite.com)
+- 🔗 [LinkedIn](https://linkedin.com/in/jakeabendroth)
+- 🕸️ [Portfolio Website](https://jakea.net)
 - ✉️ DMs open for collaboration, internships, open-source vibes
 
 ---
