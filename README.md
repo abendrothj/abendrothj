@@ -1,132 +1,68 @@
-# 🖥️ Jake Abendroth – Software Engineer | Systems & Security Dev
+# 🖥️ Jake Abendroth – Systems, Security & AI Dev
 
-Hi, I’m Jake 👋 — a Computer Science student at the University of San Francisco (Aug 2023 – Dec 2026/May 2027), passionate about building **low-level tools**, **secure systems**, and **open-source infrastructure** that devs trust.
-
-I specialize in:
-- 🧠 Systems programming (Rust, C/C++)
-- 🔐 Cryptography & security tooling
-- 🛠️ Software architecture & dev tooling
-- 💡 Local-first agents, efficient runtimes, and AI workflows
+👋 Hi, I’m Jake — a CS student at USF (Aug 2023–Dec 2026/May 2027) passionate about building **low-level tools**, **secure systems**, and **developer-first AI workflows** for the open-source world.
 
 ---
 
-## 🔍 Currently Seeking
-**Summer 2025 Internship** in:
-- Software Development
-- Cybersecurity
-- Systems Programming
-
-Focused on high-integrity engineering, algorithmic performance, and solving hard problems with clean code.
+### 🚀 TL;DR Snapshot
+- 🤖 **AI Agents/Tooling:** Offline LLM pipelines, plugin architectures, workflow orchestration
+- 🧠 **Systems Programming:** Rust, C/C++ for performance and reliability
+- 🔐 **Security/Crypto:** Privacy, secure infrastructure, robust verification tools
+- 🛠️ **Local-First Tech:** Everything built open and offline
 
 ---
 
-## 🧪 Projects
+### 🌟 AI & Automation Focus
 
-### ⚡️ [LAO – Local AI Workflow Orchestrator](https://github.com/abendrothj/lao)
-Chain local AI tools like Whisper, Ollama, and custom plugins—all offline.
-- Rust DAG engine + plugin framework
-- Tauri + Svelte UI
-- Declarative YAML workflows with typed IO
-- CLI + GUI for privacy-first orchestration
-
-> Chain. Build. Run. All offline. No cloud. No compromise.
+Building *trustworthy* AI infrastructure:
+- **Composable LLM toolchains** for reproducible, private automation
+- **Plugin SDKs & local agent runtimes**
+- Interested in security, explainability, and dev empowerment—not hype
+- **No cloud lock-in**—my AI runs on *your* machine
 
 ---
 
-### 🛡️ Argus
-A Rust-based file integrity monitor to detect unauthorized modifications in sensitive directories.
-- Uses secure hashing, fast diffing, and alert logic
-- Ideal for system auditing, intrusion detection, and config protection
-
-### 🔧 BaseX Encoder/Decoder
-Lightweight C library for high-performance BaseX encoding and decoding.
-- Clean API for embedded use in security and data pipelines
+### 🧪 Projects
+| Project | Description | Tech | Visual |
+|---------|-------------|------|--------|
+| [⚡️ LAO](https://github.com/abendrothj/lao) | **Offline AI Workflow Orchestrator**: Tunnel local LLMs, Whisper, and plugins together without the cloud. | Rust · Tauri · Svelte | _[Screenshots/GIFs coming soon]_ |
+| [🛡️ Argus](https://github.com/abendrothj/Argus) | **Dir Integrity Tool**: Transparent file auditing for OS internals. | Rust | _[Visual soon]_ |
+| [🔧 BaseX](https://github.com/abendrothj/BaseX) | **Secure Encoding Lib**: C code for fast, reliable encoding. | C | _[Logo soon]_ |
 
 ---
 
-## 🛠️ Technologies
+### 🛠️ Toolbox
 
-- 💻 Languages: Rust, C/C++, Python, Java, TypeScript
-- 🧩 Interests: cryptography, system-level security, OS internals
-- 🧠 Exploring: local LLMs, agent frameworks, plugin SDKs
-
----
-
-## 🌐 Connect
-
-- 🔗 [LinkedIn](https://linkedin.com/in/jakeabendroth)
-- 🕸️ [Portfolio Website](https://jakea.net)
-- ✉️ DMs open for collaboration, internships, open-source vibes
+**Languages:** `Rust`, `C/C++`, `Python`, `TypeScript`  
+**Exploring:** local LLMs, privacy AI, plugin SDKs, agent frameworks  
+**Interests:** open-source, trustworthy automation, reproducible engineering
 
 ---
 
-### ✨ Let’s Build Tools Worth Trusting
+### 🌐 Connect
 
-Whether it’s chaining private AI workflows or auditing system-level activity, I love making software that behaves predictably, performs efficiently, and respects its users. Feel free to explore my repos, star what you like, or reach out if you're working on something meaningful.
-
-# 🖥️ Jake Abendroth – Software Engineer | Systems & Security Dev
-
-Hi, I’m Jake 👋 — a Computer Science student at the University of San Francisco (Aug 2023 – Dec 2026/May 2027), passionate about building **low-level tools**, **secure systems**, and **open-source infrastructure** that devs trust.
-
-I specialize in:
-- 🧠 Systems programming (Rust, C/C++)
-- 🔐 Cryptography & security tooling
-- 🛠️ Software architecture & dev tooling
-- 💡 Local-first agents, efficient runtimes, and AI workflows
+[![Website](https://img.shields.io/badge/Portfolio-jakea.net-blue)](https://www.jakea.net)
+[![Email](https://img.shields.io/badge/Email-contact@jakea.net-green?logo=gmail)](mailto:contact@jakea.net)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-@jakeabendroth-blue?logo=linkedin)](https://www.linkedin.com/in/jakeabendroth)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--2072--8855-lightgrey?logo=orcid)](https://orcid.org/0009-0008-2072-8855)
 
 ---
 
-## 🔍 Currently Seeking
-**Summer 2025 Internship** in:
-- Software Development
-- Cybersecurity
-- Systems Programming
+### 📈 GitHub Stats
 
-Focused on high-integrity engineering, algorithmic performance, and solving hard problems with clean code.
+![Jake's GitHub stats](https://github-readme-stats.vercel.app/api?username=abendrothj&show_icons=true&theme=dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abendrothj&layout=compact&theme=dark)
+![GitHub Streak](https://streak-stats.demolab.com?user=abendrothj&theme=dark)
 
 ---
 
-## 🧪 Projects
+### ✨ AI for Developers, On Your Terms
 
-### ⚡️ [LAO – Local AI Workflow Orchestrator](https://github.com/abendrothj/lao)
-Chain local AI tools like Whisper, Ollama, and custom plugins—all offline.
-- Rust DAG engine + plugin framework
-- Tauri + Svelte UI
-- Declarative YAML workflows with typed IO
-- CLI + GUI for privacy-first orchestration
-
-> Chain. Build. Run. All offline. No cloud. No compromise.
+I believe *local-first AI* and open tooling let devs stay in control, ship safer tech, and build for the long term.  
+DMs open for OSS, collabs, and AI with actual substance.
 
 ---
 
-### 🛡️ Argus
-A Rust-based file integrity monitor to detect unauthorized modifications in sensitive directories.
-- Uses secure hashing, fast diffing, and alert logic
-- Ideal for system auditing, intrusion detection, and config protection
-
-### 🔧 BaseX Encoder/Decoder
-Lightweight C library for high-performance BaseX encoding and decoding.
-- Clean API for embedded use in security and data pipelines
-
----
-
-## 🛠️ Technologies
-
-- 💻 Languages: Rust, C/C++, Python, Java, TypeScript
-- 🧩 Interests: cryptography, system-level security, OS internals
-- 🧠 Exploring: local LLMs, agent frameworks, plugin SDKs
-
----
-
-## 🌐 Connect
-
-- 🔗 [LinkedIn](https://linkedin.com/in/jakeabendroth)
-- 🕸️ [Portfolio Website](https://jakea.net)
-- ✉️ DMs open for collaboration, internships, open-source vibes
-
----
-
-### ✨ Let’s Build Tools Worth Trusting
-
-Whether it’s chaining private AI workflows or auditing system-level activity, I love making software that behaves predictably, performs efficiently, and respects its users. Feel free to explore my repos, star what you like, or reach out if you're working on something meaningful.
-
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=abendrothj&label=Profile+Views&color=0e75b6&style=flat" alt="profile views"/>
+</p>
