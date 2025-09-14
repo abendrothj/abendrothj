@@ -48,14 +48,6 @@ Building *trustworthy* AI infrastructure:
 
 ---
 
-### 📈 GitHub Stats
-
-![Jake's GitHub stats](https://github-readme-stats.vercel.app/api?username=abendrothj&show_icons=true&theme=dark)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abendrothj&layout=compact&theme=dark)
-![GitHub Streak](https://streak-stats.demolab.com?user=abendrothj&theme=dark)
-
----
-
 ### ✨ AI for Developers, On Your Terms
 
 I believe *local-first AI* and open tooling let devs stay in control, ship safer tech, and build for the long term.  
