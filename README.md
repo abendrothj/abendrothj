@@ -2,7 +2,9 @@
 
 🎓 CS student at USF (Aug 2023–Dec 2026/May 2027) with a deep passion for **continuous learning** and **building with purpose**.
 
-I'm on a journey to master **systems programming**, **security**, and **AI development** — not just to build projects, but to understand *how things work* from the ground up. I believe the best way to learn is through **open-source contributions** and **real-world experience**, which is why I'm actively seeking **internship opportunities** where I can grow alongside talented teams.
+I'm on a journey to master **systems programming**, **security**, and **AI development** — not just to build projects, but to understand *how things work* from the ground up.
+
+I believe the best way to learn is through **open-source contributions** and **real-world experience**. That's why I'm actively seeking **internship opportunities** where I can grow alongside talented teams and contribute to meaningful projects.
 
 ---
 
