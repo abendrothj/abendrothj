@@ -1,24 +1,28 @@
-# 🖥️ Jake Abendroth – Systems, Security & AI Dev
+# 👋 Hi, I'm Jake Abendroth!
 
-👋 Hi, I’m Jake — a CS student at USF (Aug 2023–Dec 2026/May 2027) passionate about building **low-level tools**, **secure systems**, and **developer-first AI workflows** for the open-source world.
+🎓 CS student at USF (Aug 2023–Dec 2026/May 2027) with a deep passion for **continuous learning** and **building with purpose**.
 
----
-
-### 🚀 TL;DR Snapshot
-- 🤖 **AI Agents/Tooling:** Offline LLM pipelines, plugin architectures, workflow orchestration
-- 🧠 **Systems Programming:** Rust, C/C++ for performance and reliability
-- 🔐 **Security/Crypto:** Privacy, secure infrastructure, robust verification tools
-- 🛠️ **Local-First Tech:** Everything built open and offline
+I'm on a journey to master **systems programming**, **security**, and **AI development** — not just to build projects, but to understand *how things work* from the ground up. I believe the best way to learn is through **open-source contributions** and **real-world experience**, which is why I'm actively seeking **internship opportunities** where I can grow alongside talented teams.
 
 ---
 
-### 🌟 AI & Automation Focus
+### 🚀 What I'm Learning & Building
+- 🤖 **AI & Automation:** Local-first LLM pipelines, plugin architectures, and workflow tools
+- 🧠 **Systems Programming:** Low-level development in Rust, C/C++ for performance-critical applications
+- 🔐 **Security & Privacy:** Building secure infrastructure and robust verification tools
+- 🛠️ **Open Source:** Contributing to projects and learning from the community
 
-Building *trustworthy* AI infrastructure:
-- **Composable LLM toolchains** for reproducible, private automation
-- **Plugin SDKs & local agent runtimes**
-- Interested in security, explainability, and dev empowerment—not hype
-- **No cloud lock-in**—my AI runs on *your* machine
+---
+
+### 🌟 My Learning Philosophy
+
+I learn best by **building** and **contributing**:
+- Creating tools that solve real problems while mastering fundamentals
+- Diving deep into **how things work** — from compilers to cryptography
+- Sharing knowledge through **open-source projects** and documentation
+- Embracing challenges as opportunities to grow
+
+**Currently exploring:** Offline AI systems, trustworthy automation, and developer tooling that empowers rather than replaces
 
 ---
 
@@ -34,8 +38,20 @@ Building *trustworthy* AI infrastructure:
 ### 🛠️ Toolbox
 
 **Languages:** `Rust`, `C/C++`, `Python`, `TypeScript`  
-**Exploring:** local LLMs, privacy AI, plugin SDKs, agent frameworks  
-**Interests:** open-source, trustworthy automation, reproducible engineering
+**Learning Focus:** Local AI, privacy-first tools, systems internals, plugin architectures  
+**Approach:** Open-source collaboration, hands-on experimentation, and deep technical understanding
+
+---
+
+### 💼 Open to Opportunities
+
+I'm actively seeking **internships** and **collaborative projects** where I can:
+- Work with experienced engineers and learn from real-world codebases
+- Contribute to **open-source** projects with meaningful impact
+- Tackle challenging problems in **systems**, **security**, or **AI/ML**
+- Grow as a developer while building reliable, production-quality software
+
+**Interests:** Systems programming, security tooling, local-first AI, developer experience, infrastructure
 
 ---
 
@@ -48,10 +64,11 @@ Building *trustworthy* AI infrastructure:
 
 ---
 
-### ✨ AI for Developers, On Your Terms
+### ✨ Let's Build Together!
 
-I believe *local-first AI* and open tooling let devs stay in control, ship safer tech, and build for the long term.  
-DMs open for OSS, collabs, and AI with actual substance.
+I believe in **learning by doing** and that the best growth happens through collaboration. Whether it's contributing to open source, exploring new technologies, or solving hard problems — I'm always excited to connect with fellow developers and learners.
+
+**DMs open** for OSS collaborations, internship opportunities, technical discussions, and projects that make a difference.
 
 ---
 
