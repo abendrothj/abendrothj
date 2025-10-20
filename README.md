@@ -39,7 +39,7 @@ I learn best by **building** and **contributing**:
 
 ### 🛠️ Toolbox
 
-**Languages:** ``Java`, `Rust`, `C/C++`, `Python`, `TypeScript, and more`  
+**Languages:** `Java`, `Rust`, `C/C++`, `Python`, `TypeScript, and more`  
 **Learning Focus:** Local & Non-local AI, privacy-first tools, systems internals, plugin architectures  
 **Approach:** Open-source collaboration, hands-on experimentation, and deep technical understanding
 
