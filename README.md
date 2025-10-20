@@ -29,8 +29,8 @@ I learn best by **building** and **contributing**:
 ---
 
 ### 🧪 Projects
-| Project | Description | Tech | Visual |
-|---------|-------------|------|--------|
+| Project | Description | Tech |
+|---------|-------------|------|
 | [💰 Finlingo](https://finlingo.ai) | **AI Financial Assistant (w/ Plaid integration)**: Fully featured financial assistant with secure  | React Native + Expo & Express.js 
 | [⚡️ LAO](https://github.com/abendrothj/lao) | **Offline AI Workflow Orchestrator**: Tunnel local LLMs, Whisper, and plugins together without the cloud. | Rust
 | [🛡️ Argus](https://github.com/abendrothj/Argus) | **Dir Integrity Tool**: Transparent file auditing for OS internals. | Rust
