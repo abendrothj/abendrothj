@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Jake Abendroth!
 
-🎓 **CS Student at USF** (Aug 2023–Dec 2026/May 2027) | **Looking for Internships**
+🎓 **Undergraduate Computer Science Student at USF** (Aug 2023–Dec 2026/May 2027) | **Looking for Internships**
 
 I’m a developer driven by curiosity and a desire to build software that matters. I love digging into **systems internals**, designing **scalable web architectures**, and exploring how to make technology **secure by default**.
 
