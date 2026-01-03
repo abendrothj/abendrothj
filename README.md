@@ -22,7 +22,7 @@ For me, coding is about understanding the full picture—from the low-level memo
 | :--- | :--- | :--- |
 | [**👁️ Sigil**](https://github.com/abendrothj/sigil) | **Video Provenance & Integrity**: A tool that uses cryptographic signing and perceptual hashing to verify video authenticity and chain-of-custody. | **Python**, OpenCV, Ed25519 |
 | [**🕵️ Doppel**](https://github.com/abendrothj/doppel) | **API Security Scanner**: An automated tool designed to fuzz APIs and intelligently detect BOLA/IDOR vulnerabilities to improve application security. Designed to use existing OpenAPI/Postman/Bruno tests | **Rust**, API Fuzzing |
-| [**⚡️ LAO**](https://github.com/abendrothj/lao) | **Private AI Orchestrator**: A local-first workflow engine that tunnels local LLMs and plugins together, removing cloud dependencies for privacy. | **Rust**, Local LLMs & tools, easy plugin creation to support anything |
+| [**⚡️ LAO**](https://github.com/abendrothj/lao) | **Private AI Orchestrator**: A local-first workflow engine that tunnels local LLMs and plugins together, removing cloud dependencies for privacy. | **Rust**, Local LLMs |
 | [**💰 Finlingo**](https://finlingo.ai) | **AI Financial Platform**: A fully featured mobile financial assistant. Integrates Plaid for secure banking data and custom LLMs for personalized advice. | **React Native + Expo**, Express(.js), Plaid |
 
 ---
