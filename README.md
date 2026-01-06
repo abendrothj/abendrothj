@@ -88,7 +88,7 @@ For me, coding is about understanding the full picture—from the low-level memo
 
 <div align="center">
   <p>I am actively building my skillset to pursue a career in <strong>Cybersecurity</strong> or <strong>Software Engineering</strong>.</p>
-  <p><em>Looking for internships where I can solve complex engineering problems and apply security concepts to production-level code.</em></p>
+  <p><em>Looking for internships where I can solve complex engineering problems and apply security concepts to production-level code. (And learn a lot on the way!)</em></p>
 </div>
 
 ---
