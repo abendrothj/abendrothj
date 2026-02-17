@@ -24,4 +24,4 @@ I build high-performance, memory-safe infrastructure and security tooling. My co
 
 ### 🔗 Connect
 * **Portfolio:** [jakea.net](https://jakea.net)
-* **LinkedIn:** [in/jake-abendroth](https://linkedin.com/in/jakeabendroth)
+* **LinkedIn:** [in/jakeabendroth](https://linkedin.com/in/jakeabendroth)
