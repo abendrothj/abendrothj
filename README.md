@@ -20,10 +20,6 @@ I build things — mostly systems tooling and infrastructure in Rust and C, thou
 * **[`Finlingo`](https://finlingo.ai)** — Co-Founder & CTO  
   AI personal finance app for students and young professionals. Finny, the AI agent, monitors spending drift, surfaces subscription leaks, and answers natural language queries against your financial data. React Native frontend, domain-driven TypeScript backend, Plaid integration, and a two-step AI pipeline for intent classification and contextual response generation.
 
-### ⚙️ Stack
-**Languages:** Rust, C, Python  
-**Systems:** Tokio, async concurrency, memory safety, FFI
-
 ### 📍 Currently
 Finishing my CS degree while working on open source. Open to internships and new grad roles in systems, infrastructure, or security.
 
