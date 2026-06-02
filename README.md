@@ -7,7 +7,7 @@ I build systems-level tooling in Rust and C — mostly around memory safety, con
 ### 🏗️ Projects
 
 * **`uutils/coreutils` (Open Source Contributor)**  
-  Identified and mitigated a class of TOCTOU symlink race conditions across `install`, `ln`, and `tac`. Implemented fd-anchored directory traversal (`openat`/`mkdirat`) in a new `safe_traversal.rs` module — eliminating path-based race windows while preserving GNU-compatible behavior for pre-existing symlinks. ([#10140](https://github.com/uutils/coreutils/pull/10140), [#10991](https://github.com/uutils/coreutils/pull/10991), [#11505](https://github.com/uutils/coreutils/pull/11505))
+  Identified and mitigated a class of TOCTOU symlink race conditions across `install`, `ln`, and `tac`. Extended `safe_traversal.rs` to all Unix platforms and added fd-anchored primitives (`mkdir_at`, `open_file_at`, `create_dir_all_safe`, `copy_file_safe`) that became the foundation for subsequent fixes in the codebase. ([#9792](https://github.com/uutils/coreutils/pull/9792), [#10140](https://github.com/uutils/coreutils/pull/10140), [#10991](https://github.com/uutils/coreutils/pull/10991), [#11505](https://github.com/uutils/coreutils/pull/11505))
 
 * **[`wisp`](https://github.com/abendrothj/wisp)**  
   Tailscale-native, agentless Docker operations dashboard built in Rust. Concurrent architecture with snapshot broadcasting and action channels. Dual TUI and local web interface with websocket live updates, Azure DB telemetry, and cross-platform releases.
