@@ -1,8 +1,7 @@
 # Jake Abendroth
 **CS Undergrad @ University of San Francisco · Graduating December 2026**
-Systems & Infrastructure
 
-I build systems-level tooling in Rust and C — mostly around memory safety, concurrency, and secure execution environments. Also co-founding a fintech startup on the side.
+I build things — mostly systems tooling and infrastructure in Rust and C, though I've shipped across the stack from AI pipelines to mobile apps. Co-founding a fintech startup on the side.
 
 ### 🏗️ Projects
 
