@@ -1,30 +1,32 @@
 # Jake Abendroth
-**Systems Architecture & Application Security**
+**CS Undergrad @ University of San Francisco · Graduating December 2026**
+Systems & Infrastructure
 
-I build high-performance, memory-safe infrastructure and security tooling. My core focus is on systems-level Rust, POSIX vulnerabilities, and dynamic execution environments.
+I build systems-level tooling in Rust and C — mostly around memory safety, concurrency, and secure execution environments. Also co-founding a fintech startup on the side.
 
-### 🏗️ Featured Engineering & Research
+### 🏗️ Projects
 
-* **`uutils/coreutils` (Open Source Contributor)**
-  Contributor to the cross-platform Rust rewrite of the GNU coreutils. Recently mitigated OS-level TOCTOU (Time-of-Check to Time-of-Use) race conditions utilizing `openat` for secure directory traversal.
+* **`uutils/coreutils` (Open Source Contributor)**  
+  Identified and mitigated a class of TOCTOU symlink race conditions across `install`, `ln`, and `tac`. Implemented fd-anchored directory traversal (`openat`/`mkdirat`) in a new `safe_traversal.rs` module — eliminating path-based race windows while preserving GNU-compatible behavior for pre-existing symlinks. ([#10140](https://github.com/uutils/coreutils/pull/10140), [#10991](https://github.com/uutils/coreutils/pull/10991), [#11505](https://github.com/uutils/coreutils/pull/11505))
 
-* **`wisp`**
-  A zero-trust, agentless infrastructure dashboard for the terminal. Powered by Rust and Tailscale SSH.
-  
-* **`LAO (Local AI Orchestrator)`**
-  A commercial-grade, multi-modal AI execution engine written in Rust. Features a custom Directed Acyclic Graph (DAG) scheduler and a dynamic plugin architecture that loads compiled `.dylib`/`.so` C/C++ inference engines at runtime via FFI. 
-  
-* **`Argus`**
-  A high-performance, multi-threaded File Integrity Monitor (FIM). Implements parallel SHA-256 cryptographic hashing to detect unauthorized filesystem mutations across massive directories.
+* **[`wisp`](https://github.com/abendrothj/wisp)**  
+  Tailscale-native, agentless Docker operations dashboard built in Rust. Concurrent architecture with snapshot broadcasting and action channels. Dual TUI and local web interface with websocket live updates, Azure DB telemetry, and cross-platform releases.
 
-* **`Finlingo`**
-  CTO / Lead Architect. Managing the backend infrastructure and shipping cross-platform iOS/Android builds.
+* **[`LAO (Local AI Orchestrator)`](https://github.com/abendrothj/LAO)**  
+  Offline-first AI workflow orchestrator in Rust. Custom DAG scheduler with level-based parallel execution and a dynamic plugin architecture that loads compiled `.dylib`/`.so` inference engines at runtime via FFI. Includes a native egui GUI with visual workflow editing.
 
-### ⚙️ Technical Stack
-* **Languages:** Rust, C/C++, Python, POSIX Shell
-* **Systems:** FFI / ABI Stability, Dynamic Library Loading, Concurrency (Tokio), Memory Safety
-* **AppSec:** Vulnerability Mitigation, Fuzzing, Race Condition Analysis, Cryptography
+* **[`Argus`](https://github.com/abendrothj/Argus)**  
+  High-performance file integrity monitor in Rust. Parallel SHA-256 hashing with configurable thread count, recursive directory scanning, real-time monitoring, and NDJSON output for change tracking across large directory trees.
 
-### 🔗 Connect
-* **Portfolio:** [jakea.net](https://jakea.net)
-* **LinkedIn:** [in/jakeabendroth](https://linkedin.com/in/jakeabendroth)
+* **[`Finlingo`](https://finlingo.ai)** — Co-Founder & CTO  
+  AI personal finance app for students and young professionals. Finny, the AI agent, monitors spending drift, surfaces subscription leaks, and answers natural language queries against your financial data. React Native frontend, domain-driven TypeScript backend, Plaid integration, and a two-step AI pipeline for intent classification and contextual response generation.
+
+### ⚙️ Stack
+**Languages:** Rust, C, Python  
+**Systems:** Tokio, async concurrency, memory safety, FFI
+
+### 📍 Currently
+Finishing my CS degree while working on open source. Open to internships and new grad roles in systems, infrastructure, or security.
+
+### 🔗
+[jakea.net](https://jakea.net) · [LinkedIn](https://linkedin.com/in/jakeabendroth)
