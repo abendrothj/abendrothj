@@ -1,27 +1,33 @@
 # Jake Abendroth
-**CS Undergrad @ University of San Francisco · Graduating December 2026**
 
-I build things — mostly systems tooling and infrastructure in Rust and C, though I've shipped across the stack from AI pipelines to mobile apps. Co-founding a fintech startup on the side.
+**Systems & Infrastructure Engineer**
 
-### 🏗️ Projects
+San Francisco, CA · Graduating December 2026 (BS Computer Science, USF)
 
-* **`uutils/coreutils` (Open Source Contributor)**  
-  Identified and mitigated a class of TOCTOU symlink race conditions across `install`, `ln`, and `tac`. Extended `safe_traversal.rs` to all Unix platforms and added fd-anchored primitives (`mkdir_at`, `open_file_at`, `create_dir_all_safe`, `copy_file_safe`) that became the foundation for subsequent fixes in the codebase. ([#9792](https://github.com/uutils/coreutils/pull/9792), [#10140](https://github.com/uutils/coreutils/pull/10140), [#10991](https://github.com/uutils/coreutils/pull/10991), [#11505](https://github.com/uutils/coreutils/pull/11505))
+I build high-performance systems tooling and isolated backend infrastructure, primarily in **Rust** and **C**. My work spans OS-level security mitigations (POSIX/kernel space), low-level memory management, and real-time AI agent architectures.
 
-* **[`wisp`](https://github.com/abendrothj/wisp)**  
-  Tailscale-native, agentless Docker operations dashboard built in Rust. Concurrent architecture with snapshot broadcasting and action channels. Dual TUI and local web interface with websocket live updates, Azure DB telemetry, and cross-platform releases.
+### 🏗️ Selected Work
 
-* **[`LAO (Local AI Orchestrator)`](https://github.com/abendrothj/LAO)**  
-  Offline-first AI workflow orchestrator in Rust. Custom DAG scheduler with level-based parallel execution and a dynamic plugin architecture that loads compiled `.dylib`/`.so` inference engines at runtime via FFI. Includes a native egui GUI with visual workflow editing.
+* [**`simgit`**](https://github.com/abendrothj/simgit) — *Disk-Efficient Multi-Agent Git Worktrees (Rust)*
+  Engineered a copy-on-write Git worktree CLI (`sg`) designed for concurrent AI agent isolation. Bypasses standard checkouts by leveraging APFS `clonefile`, Linux reflink, and `fuse-overlayfs` fallbacks to share a single baseline's physical disk blocks across N agents. Benchmarked at **8.0x less physical disk usage** for 8 concurrent agents compared to standard worktrees.
 
-* **[`Argus`](https://github.com/abendrothj/Argus)**  
-  High-performance file integrity monitor in Rust. Parallel SHA-256 hashing with configurable thread count, recursive directory scanning, real-time monitoring, and NDJSON output for change tracking across large directory trees.
+* **`uutils/coreutils`** — *Security Engineer & Core Contributor (Rust)*
+  Patched critical TOCTOU (Time-of-Check to Time-of-Use) symlink race conditions across `install`, `ln`, and `tac` during the private-disclosure window of a Canonical-funded Zellic audit. Authored cross-platform mitigations extending fd-anchored primitives (`openat`, `mkdirat`) to bypass dynamic path resolution vulnerabilities.
+  *Fixes cited for **CVE-2026-35356** and **CVE-2026-35362**, currently shipping in Ubuntu 26.04.* ([#9792](https://github.com/uutils/coreutils/pull/9792), [#10140](https://github.com/uutils/coreutils/pull/10140), [#10991](https://github.com/uutils/coreutils/pull/10991), [#11505](https://github.com/uutils/coreutils/pull/11505))
 
-* **[`Finlingo`](https://finlingo.ai)** — Co-Founder & CTO  
-  AI personal finance app for students and young professionals. Finny, the AI agent, monitors spending drift, surfaces subscription leaks, and answers natural language queries against your financial data. React Native frontend, domain-driven TypeScript backend, Plaid integration, and a two-step AI pipeline for intent classification and contextual response generation.
+* [**`Finlingo`**](https://finlingo.ai) — *Co-Founder & CTO*
+  Architected the backend infrastructure for an autonomous financial action-agent. Built a highly concurrent WebRTC voice pipeline (LiveKit) with custom SIP trunk telephony and VAD-based interruption handling. Secured user infrastructure using AES-256-GCM field-level encryption and isolated backend execution environments (LXC).
+
+* [**`LAO`**](https://github.com/abendrothj/LAO) — *Local AI Orchestrator (Rust)*
+  Offline-first AI workflow engine. Engineered a custom DAG scheduler that utilizes topological sorting and true OS threads for per-level parallel execution. Implemented a dynamic FFI plugin architecture (`libloading`) to load compiled `.dylib`/`.so` inference engines at runtime via a versioned C ABI.
+
+* [**`wisp`**](https://github.com/abendrothj/wisp) — *Tailscale-Native Docker Dashboard (Rust)*
+  Zero-trust, agentless infrastructure dashboard. Uses a concurrent architecture with snapshot broadcasting, a dual TUI/Web UI with WebSocket live updates, and secure Tailscale SSH tunneling.
 
 ### 📍 Currently
-Finishing my CS degree while working on open source. Open to internships and new grad roles in systems, infrastructure, or security.
 
-### 🔗
-[jakea.net](https://jakea.net) · [LinkedIn](https://linkedin.com/in/jakeabendroth)
+Pushing the limits of concurrent agent infrastructure and sprinting toward Q3 goals at Finlingo. Actively exploring **Systems, Core Infra, and Security Engineering roles** for Q1 2027.
+
+### 🔗 Let's Connect
+
+[jakea.net](https://jakea.net) · [LinkedIn](https://linkedin.com/in/jakeabendroth) · contact@jakea.net
