@@ -11,7 +11,7 @@ I build high-performance systems tooling and isolated backend infrastructure, pr
 * [**`simgit`**](https://github.com/abendrothj/simgit) — *Disk-Efficient Multi-Agent Git Worktrees (Rust)*
   Engineered a copy-on-write Git worktree CLI (`sg`) designed for concurrent AI agent isolation. Bypasses standard checkouts by leveraging APFS `clonefile`, Linux reflink, and `fuse-overlayfs` fallbacks to share a single baseline's physical disk blocks across N agents. Benchmarked at **8.0x less physical disk usage** for 8 concurrent agents compared to standard worktrees.
 
-* **`uutils/coreutils`** — *Security Engineer & Core Contributor (Rust)*
+* [**`uutils/coreutils`**](https://github.com/uutils/coreutils) — *Security Engineer & Core Contributor (Rust)*
   Patched critical TOCTOU (Time-of-Check to Time-of-Use) symlink race conditions across `install`, `ln`, and `tac` during the private-disclosure window of a Canonical-funded Zellic audit. Authored cross-platform mitigations extending fd-anchored primitives (`openat`, `mkdirat`) to bypass dynamic path resolution vulnerabilities.
   *Fixes cited for **CVE-2026-35356** and **CVE-2026-35362**, currently shipping in Ubuntu 26.04.* ([#9792](https://github.com/uutils/coreutils/pull/9792), [#10140](https://github.com/uutils/coreutils/pull/10140), [#10991](https://github.com/uutils/coreutils/pull/10991), [#11505](https://github.com/uutils/coreutils/pull/11505))
 
