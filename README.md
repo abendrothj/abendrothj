@@ -8,10 +8,6 @@ I build high-performance systems tooling and isolated backend infrastructure, pr
 
 ### 🏗️ Selected Work
 
-* [**`simgit`**](https://github.com/abendrothj/simgit) — *Disk-Efficient Multi-Agent Git Worktrees (Rust)*
-
-  Engineered a copy-on-write Git worktree CLI (`sg`) designed for concurrent AI agent isolation. Bypasses standard checkouts by leveraging APFS `clonefile`, Linux reflink, and `fuse-overlayfs` fallbacks to share a single baseline's physical disk blocks across N agents. Benchmarked at **8.0x less physical disk usage** for 8 concurrent agents compared to standard worktrees.
-
 * [**`uutils/coreutils`**](https://github.com/uutils/coreutils) — *Contributor (Rust)*
 
   Patched critical TOCTOU (Time-of-Check to Time-of-Use) symlink race conditions across `install`, `ln`, and `tac` during the private-disclosure window of a Canonical-funded Zellic audit. Authored cross-platform mitigations extending fd-anchored primitives (`openat`, `mkdirat`) to bypass dynamic path resolution vulnerabilities. Engineered an iterative parser for the `expr` utility, completely eliminating stack overflow faults for deeply nested inputs. ([#13333](https://github.com/uutils/coreutils/pull/13333))
@@ -30,9 +26,9 @@ I build high-performance systems tooling and isolated backend infrastructure, pr
 
   Offline-first AI workflow engine. Engineered a custom DAG scheduler that utilizes topological sorting and true OS threads for per-level parallel execution. Implemented a dynamic FFI plugin architecture (`libloading`) to load compiled `.dylib`/`.so` inference engines at runtime via a versioned C ABI.
 
-* [**`wisp`**](https://github.com/abendrothj/wisp) — *Tailscale-Native Docker Dashboard (Rust)*
+* [**`simgit`**](https://github.com/abendrothj/simgit) — *Disk-Efficient Multi-Agent Git Worktrees (Rust)*
 
-  Zero-trust, agentless infrastructure dashboard. Uses a concurrent architecture with snapshot broadcasting, a dual TUI/Web UI with WebSocket live updates, and secure Tailscale SSH tunneling.
+  Engineered a copy-on-write Git worktree CLI (`sg`) designed for concurrent AI agent isolation. Bypasses standard checkouts by leveraging APFS `clonefile`, Linux reflink, and `fuse-overlayfs` fallbacks to share a single baseline's physical disk blocks across N agents. Benchmarked at **8.0x less physical disk usage** for 8 concurrent agents compared to standard worktrees.
 
 ### 📍 Currently
 
