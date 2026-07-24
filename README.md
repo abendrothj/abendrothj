@@ -12,7 +12,7 @@ I build high-performance systems tooling and isolated backend infrastructure, pr
 
   Patched critical TOCTOU (Time-of-Check to Time-of-Use) symlink race conditions across `install`, `ln`, and `tac` during the private-disclosure window of a Canonical-funded Zellic audit. Authored cross-platform mitigations extending fd-anchored primitives (`openat`, `mkdirat`) to bypass dynamic path resolution vulnerabilities. Engineered an iterative parser for the `expr` utility, completely eliminating stack overflow faults for deeply nested inputs. ([#13333](https://github.com/uutils/coreutils/pull/13333))
   
-  *Fixes cited for* ***CVE-2026-35356*** *and* ***CVE-2026-35362****, currently shipping in Ubuntu 26.04.* ([#9792](https://github.com/uutils/coreutils/pull/9792), [#10140](https://github.com/uutils/coreutils/pull/10140), [#10991](https://github.com/uutils/coreutils/pull/10991), [#11505](https://github.com/uutils/coreutils/pull/11505))
+  *Fixes cited for* ***CVE-2026-35356*** *and* ***CVE-2026-35362***, *currently shipping in Ubuntu 26.04.* ([#9792](https://github.com/uutils/coreutils/pull/9792), [#10140](https://github.com/uutils/coreutils/pull/10140), [#10991](https://github.com/uutils/coreutils/pull/10991), [#11505](https://github.com/uutils/coreutils/pull/11505))
 
 - [**`zed-industries/zed`**](https://github.com/zed-industries/zed) — *Contributor (Rust)*
 
