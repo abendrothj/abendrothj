@@ -32,7 +32,7 @@ I build high-performance systems tooling and isolated backend infrastructure, pr
 
 ### 📍 Currently
 
-Pushing the limits of local agent infrastructure and sprinting toward Q3 goals at Finlingo. Actively exploring **Systems, Core Infra, and Security Engineering roles** for Q1 2027.
+Actively exploring **Systems, Core Infra, and Security Engineering roles** for Q1 2027.
 
 ### 🔗 Let's Connect
 
