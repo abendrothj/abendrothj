@@ -2,7 +2,7 @@
 
 **Systems & Security Engineer**
 
-San Jose, CA · Graduating December 2026 (BS Computer Science, USF) · Available January 2027
+San Jose, CA · Graduating May 2027 (BS Computer Science, University of San Francisco) · Available June 2027
 
 I build systems software in **Rust** — filesystem security, POSIX correctness, and low-level tooling. Most of my public work is upstream in projects other people depend on.
 
@@ -45,7 +45,7 @@ Built Plaid ingestion and normalization, a two-stage extraction/generation pipel
 
 ## Currently
 
-Looking for **systems, infrastructure, and security engineering** roles starting January 2027. Bay Area or remote.
+Looking for **systems, infrastructure, and security engineering** roles starting June 2027. Bay Area or remote.
 
 ## Contact
 
