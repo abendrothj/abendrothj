@@ -1,51 +1,42 @@
 # Jake Abendroth
 
-**Systems & Security Engineer**
+**Software engineer** · systems, infrastructure, security · San Jose, CA
+BS Computer Science, University of San Francisco, May 2027 · Available June 2027
 
-San Jose, CA · Graduating May 2027 (BS Computer Science, University of San Francisco) · Available June 2027
+I build software that has to be correct: filesystem tools, developer tooling, backend services for sensitive data, and local AI infrastructure, mostly in Rust. Most of my public work is upstream, in tools other people depend on.
 
-I build systems software in **Rust** — filesystem security, POSIX correctness, and low-level tooling. Most of my public work is upstream in projects other people depend on.
+**30+ merged PRs to uutils/coreutils · fixes for 2 CVEs shipping in Ubuntu 26.04 · [`simgit-cli`](https://crates.io/crates/simgit-cli) on crates.io**
 
-## At a glance
+## Work
 
-- **Security:** upstream fixes for filesystem TOCTOU races, parser stack overflows, and Git staging corruption.
-- **Systems:** Rust tooling focused on filesystem behavior, POSIX correctness, and low-level reliability.
-- **Local AI:** building offline workflow orchestration and capability-aware inference routing.
+| Project | What it is | Highlights |
+|---|---|---|
+| [**uutils/coreutils**](https://github.com/uutils/coreutils/pulls?q=is%3Apr+author%3Aabendrothj+is%3Amerged) | Rust rewrite of GNU coreutils, shipped in Ubuntu | [![merged PRs](https://img.shields.io/github/issues-search?query=repo%3Auutils%2Fcoreutils%20is%3Apr%20is%3Amerged%20author%3Aabendrothj&label=merged%20PRs&color=2ea44f)](https://github.com/uutils/coreutils/pulls?q=is%3Apr+author%3Aabendrothj+is%3Amerged) Official fix for [CVE-2026-35356](https://github.com/uutils/coreutils/pull/10140), cited fix for [CVE-2026-35362](https://github.com/uutils/coreutils/pull/10991) |
+| [**QuackXide**](https://github.com/Code-Pause-Inc/QuackXide) | Team project, in progress: a database for protected data where plaintext exists only inside attested enclaves | Attestation verification for Confidential Space on Intel TDX |
+| [**simgit**](https://github.com/abendrothj/simgit) | Copy-on-write Git worktrees for running many agents on one repo | [![crates.io](https://img.shields.io/crates/v/simgit-cli?label=crates.io)](https://crates.io/crates/simgit-cli) 10 MiB per extra worktree vs 567 MiB for `git worktree` on `microsoft/vscode` |
+| [**zed**](https://github.com/zed-industries/zed/pull/60584) | Code editor | Fixed Git staging corruption from ambiguous diff-hunk placement |
+| [**LAO**](https://github.com/abendrothj/lao) | Offline workflow orchestrator | C-ABI plugins loaded at runtime; YAML workflows compiled to DAGs and run in parallel |
+| [**pig**](https://github.com/abendrothj/pig) | Inference gateway for local llama.cpp and MLX workers | Routes by measured hardware and runtime capability; OpenAI-compatible API |
 
-## Selected work
+## Security work
 
-### [`uutils/coreutils`](https://github.com/uutils/coreutils) — Contributor (Rust)
+**uutils/coreutils**
 
-- Patched TOCTOU symlink races in `install`, `ln`, and `tac` with fd-anchored traversal primitives in `uucore`.
-- Extended the security coverage from Linux to macOS and FreeBSD; rewrote `expr`'s recursive-descent parser iteratively to prevent stack overflows.
-- Official remediation for [CVE-2026-35356](https://github.com/uutils/coreutils/pull/10140); cited fix for [CVE-2026-35362](https://github.com/uutils/coreutils/pull/10991). Both ship in Ubuntu 26.04.
-- Related work: [#9792](https://github.com/uutils/coreutils/pull/9792) · [#11505](https://github.com/uutils/coreutils/pull/11505) · [#13333](https://github.com/uutils/coreutils/pull/13333)
+- Closed TOCTOU symlink races in `install`, `ln`, and `tac` with fd-anchored traversal primitives in `uucore`.
+- Hardened recursive `cp`, `chmod`, and `chown` against symlinked targets and directories swapped mid-walk.
+- Brought the safe traversal layer to macOS, FreeBSD, AIX, and GNU Hurd; fixed SELinux `-Z` context lookup for relative paths.
+- Rewrote `expr`'s recursive-descent parser iteratively to remove stack overflows on deeply nested input.
 
-### [`zed-industries/zed`](https://github.com/zed-industries/zed) — Contributor (Rust)
+**QuackXide** (in progress)
 
-Fixed Git staging corruption caused by ambiguous diff-hunk placement between the text buffer and diff engine. [#60584](https://github.com/zed-industries/zed/pull/60584) · resolves [#60424](https://github.com/zed-industries/zed/issues/60424)
-
-### [`simgit`](https://github.com/abendrothj/simgit) — Copy-on-Write Git Worktrees (Rust)
-
-Rust CLI (`sg`, published as [`simgit-cli`](https://crates.io/crates/simgit-cli)) for real Git linked worktrees backed by APFS `clonefile`, Linux reflinks, and unprivileged `fuse-overlayfs`.
-
-On `microsoft/vscode` (18,707 tracked paths), each extra worktree costs **9.8–10.8 MiB against 567 MiB** for plain `git worktree` — about 0.4 KiB per tracked path plus ~60 KiB fixed. Cold setup for eight worktrees runs 6.4 s against 14.0 s.
-
-### [`LAO`](https://github.com/abendrothj/lao) — Local AI Workflow Orchestrator (Rust)
-
-Versioned C-ABI plugins load at runtime; YAML workflows compile to validated DAGs and execute in parallel by dependency level. FFI layout assertions, panic containment, and fuzzing protect the plugin boundary.
-
-### [`pig`](https://github.com/abendrothj/pig) — Capability-Aware Inference Gateway (Rust)
-
-Routes requests across heterogeneous local backends using measurable model, hardware, and runtime capabilities. Exposes an OpenAI-compatible chat-completions API while keeping scheduling separate from agent planning.
-
-### Finlingo — Co-Founder & CTO (2026)
-
-Built Plaid ingestion and normalization, a two-stage extraction/generation pipeline, field-level AES-256-GCM protection for access tokens and PII, and HMAC-verified webhook ingestion.
+- Verify Confidential Space attestation tokens on Intel TDX, with bounded token age and fuzzed claim decoding.
+- Wrote the design record for key custody and attested key release.
+- Removed fail-open configuration defaults from the query engine.
+- Locked down outbound connectors: HTTPS only, no redirects, capped response bodies.
 
 ## Currently
 
-Looking for **systems, infrastructure, and security engineering** roles starting June 2027. Bay Area or remote.
+Finishing QuackXide this semester. Looking for **software engineering** roles starting June 2027: systems, backend, infrastructure, developer tools, or security. Bay Area or remote.
 
 ## Contact
 
