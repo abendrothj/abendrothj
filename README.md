@@ -15,8 +15,8 @@ I build software that has to be correct: filesystem tools, developer tooling, ba
 | [**QuackXide**](https://github.com/Code-Pause-Inc/QuackXide) | Team project, in progress: a database for protected data where plaintext exists only inside attested enclaves | Attestation verification for Confidential Space on Intel TDX |
 | [**simgit**](https://github.com/abendrothj/simgit) | Copy-on-write Git worktrees for running many agents on one repo | [![crates.io](https://img.shields.io/crates/v/simgit-cli?label=crates.io)](https://crates.io/crates/simgit-cli) 10 MiB per extra worktree vs 567 MiB for `git worktree` on `microsoft/vscode` |
 | [**zed**](https://github.com/zed-industries/zed/pull/60584) | Code editor | Fixed Git staging corruption from ambiguous diff-hunk placement |
-| [**LAO**](https://github.com/abendrothj/lao) | Offline workflow orchestrator | C-ABI plugins loaded at runtime; YAML workflows compiled to DAGs and run in parallel |
-| [**pig**](https://github.com/abendrothj/pig) | Inference gateway for local llama.cpp and MLX workers | Routes by measured hardware and runtime capability; OpenAI-compatible API |
+
+Also: [LAO](https://github.com/abendrothj/lao), a DAG workflow engine with runtime-loaded C-ABI plugins · [pig](https://github.com/abendrothj/pig), a capability-aware gateway for local llama.cpp and MLX workers
 
 ## Security work
 
