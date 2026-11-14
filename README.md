@@ -1,7 +1,7 @@
 # Jake Abendroth
 
-**Software engineer** · systems, infrastructure, security · San Jose, CA
-BS Computer Science, University of San Francisco, May 2027 · Available June 2027
+**Software engineer** · systems, infrastructure, security · Bay Area, CA
+BS Computer Science, University of San Francisco, May 2027 · Available June 2027 · Open to remote or relocation
 
 I build software that has to be correct: filesystem tools, developer tooling, backend services for sensitive data, and local AI infrastructure, mostly in Rust. Most of my public work is upstream, in tools other people depend on.
 
